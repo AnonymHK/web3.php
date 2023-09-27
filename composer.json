@@ -1,5 +1,5 @@
 {
-    "name": "web3p/web3.php",
+    "name": "anonymhk/web3.php",
     "description": "Ethereum web3 interface.",
     "type": "library",
     "license": "MIT",
@@ -10,19 +10,19 @@
         }
     ],
     "require": {
-        "guzzlehttp/guzzle": "^6.3|^7.0",
-        "PHP": "^7.2|^8.0",
-        "kornrunner/keccak": "~1.0",
-        "phpseclib/phpseclib": "~2.0.30",
+        "guzzlehttp/guzzle": "^7.8",
+        "PHP": ">=8.0",
+        "kornrunner/keccak": "~1.1.0",
+        "phpseclib/phpseclib": "~3.0.23",
         "ext-mbstring": "*",
-        "react/http": "^1.6.0",
-        "react/async": "^4.0.0|^3.1.0",
-        "react/promise": "^2.9.0",
-        "react/event-loop": "^1.2",
-        "react/socket": "^1.13"
+        "react/http": "~1.9.0",
+        "react/async": "~4.1.0",
+        "react/promise": "~2.10.0",
+        "react/event-loop": "~1.4.0",
+        "react/socket": "~1.14.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~8.0|~9.0"
+        "phpunit/phpunit": "~9.6.13"
     },
     "autoload": {
         "psr-4": {
